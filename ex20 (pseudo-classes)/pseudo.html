@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudoclasse</title>
+
+    <style> 
+        div > p {
+            display: none;
+        }
+
+        div:hover > p { display: block;
+            color: aliceblue;
+            background-color: blue;
+            width: 150px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        #ff {
+            width: 100px;
+        }
+        #ff:hover { 
+           color: rgb(138, 11, 177);
+        }
+    </style>
+</head>
+<body>
+    <p>passe o mouse no texto abaixo</p>
+    <div id="ff">
+        esse texto aqui
+        <p>texto escondido</p>
+    </div>
+
+</body>
+</html>
