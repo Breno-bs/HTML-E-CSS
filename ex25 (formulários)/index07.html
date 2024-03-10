@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário07</title>
+</head>
+<body>
+    <form action="" method="post"></form>
+    <label for="ies">escolha seu estado</label>
+    <select name="est" id="iest">
+
+
+        <option value="" selected>-- escolha --</option>
+        <optgroup label="Região Sudeste">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+        </optgroup>
+
+        <optgroup label="Nordeste">
+            <option value="RN">Rio grande do norte</option>
+            <option value="MA">Maranhão</option>
+            <option value="PE">Pernambuco</option>
+        </optgroup>
+    </select>
+
+    <p>
+        <label for="iprof">qual é sua profissão?</label>
+        <input type="text" name="prof" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ME">médico</option>
+            <option value="DE">Design</option>
+            <option value="PF">Polícia federal</option>
+            <option value="PD">pedreiro</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imensagem">mensagem</label><br>
+        <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="sua mensagem"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="envair">
+        <input type="reset" value="limpar">
+    </p>
+</body>
+</html>

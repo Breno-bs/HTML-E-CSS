@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio04</title>
+    <style>
+
+        table{
+            width: 300px;
+            padding: 20px;
+            border-collapse: collapse;
+        }
+        td , th {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        thead>tr>th {
+            background-color: darkgrey;
+        }
+
+       
+           
+       
+        tfoot{
+            background-color: darkgrey;
+           
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            
+                <tr>
+                    <th rowspan="2" scope="rowgroup">área</th>
+                    <th rowspan="2">disciplina</th>
+                    <th colspan="2" scope="colgroup">notas</th>
+                    <th rowspan="2" scope="col">média</th>
+                </tr>
+                <tr>
+                    
+                    <th scope="col">nota1</th>
+                    <th scope="col">nota2</th>
+                   
+                </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                
+                    <th rowspan="4" scope="rowgroup">exatas</th>
+                    <td>matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+            </tr>
+                <tr>
+                    <td>matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+            <tr>
+                
+                    <th colspan="4" scope="rowgroup" style="text-align: left; background-color: darkgray;" >média de exatas</th>
+                    <td style="background-color: darkgrey;">0.0</td>
+            </tr>   
+            <tr>
+                
+                <th rowspan="2">humanas</th>
+                <td>história</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+               
+        </tr>
+            <tr>
+                <td>geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+        </tbody>
+
+        <tfoot>
+            <th colspan="4" scope="row" style="text-align: left;">média de humanas</th>
+            <td>0.0</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
